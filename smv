@@ -16,8 +16,8 @@ xkb_symbols "colemak" {
     key <AE08> { [            8,      percent,           thorn,            THORN ] };
     key <AE09> { [            9,  bracketleft,            less,             less ] };
     key <AE10> { [            0, bracketright,         greater,          greater ] };
-    key <AE11> { [   underscore,         plus,          endash,           emdash ] };
-    key <AE12> { [       exclam,       exclam,        multiply,         division ] };
+    key <AE11> { [   underscore,   underscore,      underscore,       underscore ] };
+    key <AE12> { [       exclam,       exclam,          exclam,           exclam ] };
 
     key <AD01> { [            q,            Q,               q,       Adiaeresis ] };
     key <AD02> { [            w,            W,               w,            Aring ] };
@@ -28,8 +28,8 @@ xkb_symbols "colemak" {
     key <AD07> { [            l,            L,               l,          Lstroke ] };
     key <AD08> { [            u,            U,          uacute,           Uacute ] };
     key <AD09> { [            y,        colon,          exclam,                Y ] };
-    key <AD10> { [    semicolon,        equal,           equal,       Odiaeresis ] };
-    key <AD11> { [    braceleft,        minus,            less,             less ] };
+    key <AD10> { [        minus,        equal,           equal,       Odiaeresis ] };
+    key <AD11> { [    braceleft,    semicolon,            less,             less ] };
     key <AD12> { [   braceright,         plus,         greater,          greater ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,        0x100203a ] };
 

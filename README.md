@@ -7,13 +7,13 @@ Hi! This is my custom keyboard layout, based on US Colemak layout, with some ada
 It's mostly adapted for languages with C-style syntax (Go, C++, TypeScript), with focus on ergonomics when using these languages' features/syntax. Some of these adaptations include:
 
 - Moved closer curly braces "{}" and parentheses "()", for function declarations in C-styled languages.
-- Placed together ":=" in a very accesible and ergonomic position, for variable declarations in Go.
+- Placed together ":=" in a better accesible and ergonomic position, for variable declarations in Go.
 - Placed together ampersand "&" and asterisk "*", for working with pointers in Go and C++.
 - Moved closer square brackets "[]" and underscore "_", for Python syntax and it's naming convention (snake case).
 
-This configuration is specifically tailored for my primary programming languages, and you may need to customize it for languages that you use.
+This configuration is specifically tailored for my primary programming languages, and you may need to customize it for languages that you use more often.
 
-### Natural language adaptations
+### Natural language adaptations (Spanish)
 
 Dead key and "ñ" placed in "\<LSGT\>" key (which exists in ISO-layout keyboards, typically in Europe, and placed between "Shift" and "Z" keys), for writing Spanish letters comfortably.
 
