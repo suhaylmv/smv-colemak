@@ -16,7 +16,7 @@ xkb_symbols "colemak" {
     key <AE08> { [            8,      percent,           thorn,            THORN ] };
     key <AE09> { [            9,  bracketleft,            less,             less ] };
     key <AE10> { [            0, bracketright,         greater,          greater ] };
-    key <AE11> { [   underscore,   underscore,      underscore,       underscore ] };
+    key <AE11> { [   underscore,         plus,      underscore,       underscore ] };
     key <AE12> { [       exclam,       exclam,          exclam,           exclam ] };
 
     key <AD01> { [            q,            Q,               q,       Adiaeresis ] };
@@ -27,10 +27,10 @@ xkb_symbols "colemak" {
     key <AD06> { [            j,            J,               j,          Dstroke ] };
     key <AD07> { [            l,            L,               l,          Lstroke ] };
     key <AD08> { [            u,            U,          uacute,           Uacute ] };
-    key <AD09> { [            y,        colon,          exclam,                Y ] };
-    key <AD10> { [        minus,        equal,           equal,       Odiaeresis ] };
-    key <AD11> { [    braceleft,    semicolon,            less,             less ] };
-    key <AD12> { [   braceright,         plus,         greater,          greater ] };
+    key <AD09> { [            y,            Y,            less,             less ] };
+    key <AD10> { [        minus,        equal,           minus,            minus ] };
+    key <AD11> { [    braceleft,        colon,            less,             less ] };
+    key <AD12> { [   braceright,     question,         greater,          greater ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,        0x100203a ] };
 
     key <AC01> { [            a,            A,          aacute,           Aacute ] };
@@ -39,10 +39,10 @@ xkb_symbols "colemak" {
     key <AC04> { [            t,            T,               t, dead_doubleacute ] };
     key <AC05> { [            d,            D,               d,       asciitilde ] };
     key <AC06> { [            h,            H,               h,       asciitilde ] };
-    key <AC07> { [            n,            N,          ntilde,           Ntilde ] };
-    key <AC08> { [            e,            E,          eacute,           Eacute ] };
-    key <AC09> { [            i,            I,          iacute,           Iacute ] };
-    key <AC10> { [            o,            O,          oacute,           Oacute ] };
+    key <AC07> { [            n,            N,           colon,           exclam ] };
+    key <AC08> { [            e,            E,           equal,            equal ] };
+    key <AC09> { [            i,            I,            less,             less ] };
+    key <AC10> { [            o,            O,           minus,            minus ] };
     key <AC11> { [   apostrophe,     quotedbl,           grave,           Otilde ] };
 
     key <AB01> { [            z,            Z,               Z,               AE ] };
@@ -54,11 +54,11 @@ xkb_symbols "colemak" {
     key <AB07> { [            m,            M,     dead_macron,       asciitilde ] };
     key <AB08> { [        comma,    parenleft,    dead_cedilla,       asciitilde ] };
     key <AB09> { [       period,   parenright,    questiondown,       asciitilde ] };
-    key <AB10> { [        slash,     question,               Z,       asciitilde ] };
+    key <AB10> { [        slash,    semicolon,               Z,       asciitilde ] };
 
     key <CAPS> { [       Escape,       Escape,          Escape,           Escape ] };
     key <LSGT> { [   dead_acute,       ntilde,      exclamdown,           emdash ] };
-    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+    key <SPCE> { [        space,        space,           space,            space ] };
 
     include "level3(ralt_switch)"
 };
