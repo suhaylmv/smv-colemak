@@ -1,25 +1,14 @@
-Hi! This is my custom keyboard layout, based on US Colemak layout, with some adaptations to write my fav programming languages (e.g. Go, TypeScript, Python, C++) and Spanish more ergonomically.
+my custom keyboard layout based on the US Colemak, optimized for the 3 following things:
+- writing go, typescript and python syntax
+- vim motions
+- spanish characters (ñ, diacritic)
 
-## What you should know about this layout
+not recommended for using the layout as it is, as it's wildly opinionated and designed for my own (often weird) needs. but potentially helpful for taking some ideas/inspiration and designing your own layout.
 
-### Programming languages adaptations
+**some of the adaptations include:**
 
-It's mostly adapted for languages with C-style syntax (Go, C++, TypeScript), with focus on ergonomics when using these languages' features/syntax. Some of these adaptations include:
-
-- Moved closer curly braces "{}" and parentheses "()", for function declarations in C-styled languages.
-- Placed together ":=" in a better accesible and ergonomic position, for variable declarations in Go.
-- Placed together ampersand "&" and asterisk "*", for working with pointers in Go and C++.
-- Moved closer square brackets "[]" and underscore "_", for Python syntax and it's naming convention (snake case).
-
-This configuration is specifically tailored for my primary programming languages, and you may need to customize it for languages that you use more often.
-
-### Natural language adaptations (Spanish)
-
-Dead key and "ñ" placed in "\<LSGT\>" key (which exists in ISO-layout keyboards, typically in Europe, and placed between "Shift" and "Z" keys), for writing Spanish letters comfortably.
-
-If your keyboard isn't based on ISO-layout (e.g. keyboards made in US), this configuration won't affect you since "\<LSGT\>" key doesn't exist on these keyboards.
-
-### Other
-
-- It uses "Alt Gr" key heavily for easier access to some symbols, and some aren't accessible without use of "Alt Gr".
-- It has binded Caps Lock to Escape (for better Vim motions experience).
+- very accessible and ergonomic placement for ":=", "!=", "<-" (go syntax)
+- rearranged special characters on the number row, moving closer characters used more often in programming languages and vim motions
+- "<" and ">" accessed with "alt gr" on "n" and "e" keys, which is awkward but I didn't find a better place and I don't use them much anyway
+- dead key and "ñ" placed in "\<LSGT\>" key, which exists on ISO-layout keyboards (common in europe, placed between "shift" and "z" keys)
+- "caps lock" bound to "escape", for optimal vim motions experience
