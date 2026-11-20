@@ -1,0 +1,19 @@
+// Like FOUR_LEVEL_SEMIALPHABETIC, but Shift+AltGr gives the AltGr level and
+// Shift is passed on to the app, so Shift+AltGr+n is Shift+Left (selection).
+default xkb_types "nav" {
+    virtual_modifiers LevelThree;
+    type "SMV_NAV" {
+        modifiers = Shift + Lock + LevelThree;
+        map[Shift] = Level2;
+        map[Lock] = Level2;
+        map[LevelThree] = Level3;
+        map[Shift+LevelThree] = Level3;
+        preserve[Shift+LevelThree] = Shift;
+        map[Lock+LevelThree] = Level3;
+        map[Shift+Lock+LevelThree] = Level3;
+        preserve[Shift+Lock+LevelThree] = Shift;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Shift";
+        level_name[Level3] = "AltGr (navigation)";
+    };
+};

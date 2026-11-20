@@ -1,0 +1,4 @@
+! include %S/evdev
+
+! layout[any] = types
+  smv = +smv(nav)

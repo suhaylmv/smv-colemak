@@ -25,9 +25,9 @@ xkb_symbols "colemak" {
     key <AD04> { [            p,            P,       ampersand,         NoSymbol ] };
     key <AD05> { [            g,            G,             bar,         NoSymbol ] };
     key <AD06> { [            j,            J,               j,         NoSymbol ] };
-    key <AD07> { [            l,            L,               l,         NoSymbol ] };
-    key <AD08> { [            u,            U,               u,         NoSymbol ] };
-    key <AD09> { [            y,            Y,               y,         NoSymbol ] };
+    key <AD07> { type[Group1] = "SMV_NAV", [ l, L, Prior, Prior ] };
+    key <AD08> { type[Group1] = "SMV_NAV", [ u, U, Next, Next ] };
+    key <AD09> { type[Group1] = "SMV_NAV", [ y, Y, Delete, Delete ] };
     key <AD10> { [   underscore,    semicolon,      underscore,         NoSymbol ] };
     key <AD11> { [        grave,    braceleft,       semicolon,         NoSymbol ] };
     key <AD12> { [   braceright,   braceright,      braceright,         NoSymbol ] };
@@ -39,10 +39,10 @@ xkb_symbols "colemak" {
     key <AC04> { [            t,            T,          exclam,         NoSymbol ] };
     key <AC05> { [            d,            D,         greater,         NoSymbol ] };
     key <AC06> { [            h,            H,               h,         NoSymbol ] };
-    key <AC07> { [            n,            N,               n,         NoSymbol ] };
-    key <AC08> { [            e,            E,               e,         NoSymbol ] };
-    key <AC09> { [            i,            I,               i,         NoSymbol ] };
-    key <AC10> { [            o,            O,              oe,               OE ] };
+    key <AC07> { type[Group1] = "SMV_NAV", [ n, N, Left, Left ] };
+    key <AC08> { type[Group1] = "SMV_NAV", [ e, E, Right, Right ] };
+    key <AC09> { type[Group1] = "SMV_NAV", [ i, I, Up, Up ] };
+    key <AC10> { type[Group1] = "SMV_NAV", [ o, O, Down, Down ] };
     key <AC11> { [   apostrophe,     quotedbl,      apostrophe,         NoSymbol ] };
 
     key <AB01> { [            z,            Z,               z,         NoSymbol ] };
@@ -50,8 +50,8 @@ xkb_symbols "colemak" {
     key <AB03> { [            c,            C,            plus,         NoSymbol ] };
     key <AB04> { [            v,            V,     asciicircum,         NoSymbol ] };
     key <AB05> { [            b,            B,               b,         NoSymbol ] };
-    key <AB06> { [            k,            K,               k,         NoSymbol ] };
-    key <AB07> { [            m,            M,               m,         NoSymbol ] };
+    key <AB06> { type[Group1] = "SMV_NAV", [ k, K, Home, Home ] };
+    key <AB07> { type[Group1] = "SMV_NAV", [ m, M, End, End ] };
     key <AB08> { [        comma,    parenleft,           comma,         NoSymbol ] };
     key <AB09> { [       period,   parenright,          period,         NoSymbol ] };
     key <AB10> { [        slash,     question,           slash,         NoSymbol ] };
